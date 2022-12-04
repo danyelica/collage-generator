@@ -32,7 +32,7 @@
 
 .lineRight {
   top: 11px;
-  right: 150px;
+  right: 120px;
 }
 
 .lineLeft {
@@ -41,19 +41,20 @@
 }
 
 .topTitle {
-  font-family: "Louis George Cafe";
+  font-family: "Bebas Neue";
   font-style: normal;
-  font-weight: 700;
+  font-weight: 400;
   font-size: 21px;
-  line-height: 24px;
+  line-height: 25px;
   text-align: center;
+  letter-spacing: 0.3em;
   text-transform: uppercase;
 
   color: white;
 }
 
 .mainTitle {
-  font-family: "Outside";
+  font-family: "Cookie";
   font-style: normal;
   font-weight: 400;
   font-size: 110px;
@@ -107,7 +108,7 @@
 }
 
 .texts {
-  font-family: "Australia Custom";
+  font-family: "Great Vibes";
   font-style: italic;
   font-weight: 400;
   font-size: 50px;

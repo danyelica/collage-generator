@@ -1,8 +1,8 @@
 import Head from "next/head";
 import Image from "next/image";
-import PhotosFirstSample from "../api/photos";
-import CloseIcon from "../../public/assets/images/close-icon.png";
-import SearchBar from "../../public/assets/images/search-bar.png";
+import { PhotosFirstSample } from "../api/photos";
+import CloseIcon from "../../public/assets/images/example1/close-icon.png";
+import SearchBar from "../../public/assets/images/example1/search-bar.png";
 import styles from "../../styles/Sample1.module.css";
 
 export default function Sample1() {

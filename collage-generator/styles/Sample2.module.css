@@ -1,0 +1,137 @@
+.main,
+.texture {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  height: 1080px;
+  width: 608px;
+
+  overflow: hidden;
+}
+
+.main {
+  background-image: url("../public/assets/images/example2/background.png");
+}
+
+.texture {
+  background-image: url("../public/assets/images/example2/texture.png");
+}
+
+.date,
+.title,
+.subtitle,
+.flowersRight,
+.firstImage,
+.flowersLeft,
+.tapeBrown,
+.palette,
+.bottom {
+  position: relative;
+}
+
+.date,
+.title {
+  font-family: "Fredoka One";
+  font-weight: 400;
+
+  color: #000000;
+}
+
+.date {
+  top: 90px;
+  left: -60px;
+
+  font-size: 35px;
+  line-height: 42px;
+
+  color: #7a5c47;
+}
+
+.title {
+  top: 190px;
+  left: -70px;
+
+  font-size: 30px;
+  line-height: 36px;
+}
+
+.subtitle {
+  top: 180px;
+  left: -50px;
+
+  font-family: "La Belle Aurore";
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 93px;
+
+  z-index: 2;
+
+  color: #a40000;
+}
+
+.flowersRight {
+  top: -40px;
+  left: 200px;
+
+  z-index: 1;
+}
+
+.firstImage {
+  top: -330px;
+  left: 335px;
+
+  width: 248px;
+  height: 371px;
+
+  border: 11px solid #ffffff;
+}
+
+.flowersLeft {
+  top: -200px;
+  left: 100px;
+
+  z-index: 1;
+}
+
+.tapeBrown {
+  top: -480px;
+  left: 200px;
+
+  height: 260px;
+  width: 200px;
+}
+
+.palette {
+  top: -623px;
+  left: -140px;
+}
+
+.color1,
+.color2,
+.color3 {
+  margin-top: 13px;
+  width: 22px;
+  height: 22px;
+}
+
+.color1 {
+  background: #ba9f7f;
+}
+
+.color2 {
+  background: #aa8b75;
+}
+
+.color3 {
+  background: #7a5c47;
+}
+
+.bottom {
+  top: -580px;
+  left: 40px;
+}
+
+.bottomPic {
+  margin-left: 25px;
+}

@@ -1,0 +1,118 @@
+.firstExample {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: #d9d9d9;
+}
+
+.texture {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  height: 1080px;
+  width: 608px;
+  background-image: url("../public/assets/images/texture.png");
+  background-size: cover;
+}
+
+.top {
+  margin-top: 40px;
+}
+
+.lineRight,
+.lineLeft {
+  position: relative;
+
+  width: 110px;
+
+  border-top: 2px solid #ffffff;
+}
+
+.lineRight {
+  top: 11px;
+  right: 150px;
+}
+
+.lineLeft {
+  top: -15px;
+  left: 290px;
+}
+
+.topTitle {
+  font-family: "Louis George Cafe";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 24px;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: white;
+}
+
+.mainTitle {
+  font-family: "Outside";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 110px;
+  line-height: 123px;
+
+  margin: 60px 0;
+
+  color: #ffffff;
+}
+
+.firstImage {
+  width: 279px;
+  height: 284px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.closeIcon {
+  position: relative;
+  top: -275px;
+  left: 110px;
+}
+
+.searchBar {
+  position: relative;
+  top: -100px;
+
+  height: 40px;
+  width: 235px;
+}
+
+.row,
+.rowFirst {
+  display: flex;
+  align-items: center;
+  gap: 70px;
+}
+
+.rowFirst {
+  margin-top: -50px;
+}
+
+.row {
+  margin-top: 20px;
+}
+
+.tinyImage {
+  width: 123px;
+  height: 76px;
+
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.texts {
+  font-family: "Australia Custom";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 79px;
+  text-align: center;
+
+  color: #ffffff;
+}

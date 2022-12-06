@@ -61,7 +61,7 @@ export default function Sample2() {
             <Image
               src={PhotosSecondSample.Photo8}
               className={styles.bottomPic}
-              alt='flowers'
+              alt='white cat'
             />
             <Image
               src={PhotosSecondSample.Photo9}
@@ -71,7 +71,7 @@ export default function Sample2() {
             <Image
               src={PhotosSecondSample.Photo10}
               className={styles.bottomPic}
-              alt='flowers'
+              alt='white cat'
             />
           </div>
         </div>

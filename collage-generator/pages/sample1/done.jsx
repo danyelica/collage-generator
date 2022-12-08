@@ -35,9 +35,13 @@ export default function Sample1() {
       google_fonts: "Cookie|Great Vibes|Bebas Neue",
     };
 
-    const response = await uploadSite(body);
+    try {
+      const response = await uploadSite(body);
 
-    return window.location.href(response.url);
+      return window.location.href(response.url);
+    } catch (error) {
+      console.log(error);
+    }
   }
 
   return (

@@ -1,8 +1,17 @@
+.containerCenter,
 .container {
   display: flex;
   justify-content: center;
-  gap: 2.5rem;
 
+  gap: 2.5rem;
+}
+
+.containerCenter {
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
   margin: 3rem 0 20rem 2rem;
 
   background-color: #d9d9d9;
@@ -155,9 +164,11 @@
 .brownFile,
 .button {
   display: flex;
-  flex-direction: row;
   justify-content: center;
   align-items: center;
+
+  overflow: hidden;
+  white-space: nowrap;
 
   color: #ffffff;
   border-radius: 10px;

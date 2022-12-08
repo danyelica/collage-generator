@@ -43,7 +43,6 @@ export default function Home() {
           type='file'
           onChange={(event) => handleInput(event.target.files)}
         />
-
         <button onClick={() => handleUpload()}>Upload</button>
       </main>
     </div>

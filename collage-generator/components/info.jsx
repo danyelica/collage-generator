@@ -13,13 +13,21 @@ export default function Info() {
           <Image src={Polygon} className={styles.image} />
           <div className={styles.open}>
             <h3 className={styles.link}>
-              <a href='https://www.linkedin.com/in/danyelica/' target='_blank'>
+              <a
+                href='https://www.linkedin.com/in/danyelica/'
+                target='_blank'
+                rel='noreferrer'
+              >
                 {" "}
                 @danyelica
               </a>
             </h3>
             <h3 className={styles.link}>
-              <a href='https://www.deviantart.com/southae' target='_blank'>
+              <a
+                href='https://www.deviantart.com/southae'
+                target='_blank'
+                rel='noreferrer'
+              >
                 @southae
               </a>
             </h3>

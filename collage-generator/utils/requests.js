@@ -2,6 +2,9 @@ import api from "../pages/api/mainApi";
 import secondApi from "../pages/api/secondApi";
 
 export async function uploadFiles(formData) {
+  for (var pair of formData.entries()) {
+    console.log(pair[0] + ", " + pair[1]);
+  }
   try {
     const { data } = await api.post("/upload-multiple", formData, {
       headers: {

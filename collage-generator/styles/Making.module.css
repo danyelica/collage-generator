@@ -1,0 +1,255 @@
+.containerCenter,
+.container {
+  display: flex;
+  justify-content: center;
+
+  gap: 2.5rem;
+}
+
+.containerCenter {
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  margin: 3rem 0 20rem 2rem;
+
+  background-color: #d9d9d9;
+}
+
+.title {
+  font-family: "Segoe UI";
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 27px;
+
+  margin-bottom: 1rem;
+
+  color: #000000;
+}
+
+.imageFinal {
+  width: 161px;
+  height: 287px;
+}
+
+.imageInd {
+  width: 426px;
+  height: 760px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.label,
+.greenFile,
+.orangeFile,
+.yellowFile,
+.violetFile,
+.oliveFile,
+.brownFile,
+.button {
+  font-family: "Nunito";
+  font-weight: 600;
+  font-size: 1.4rem;
+  line-height: 20px;
+  color: #344054;
+}
+
+.inputArea {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.pinkIndicator,
+.purpleIndicator,
+.blueIndicator,
+.greenIndicator,
+.orangeIndicator,
+.yellowIndicator,
+.violetIndicator,
+.oliveIndicator,
+.brownIndicator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 2.4rem;
+  height: 2.4rem;
+
+  border-radius: 50%;
+}
+
+.pinkIndicator {
+  background-color: #f83881;
+}
+
+.purpleIndicator {
+  background-color: #bb38f8;
+}
+
+.blueIndicator {
+  background-color: #38aef8;
+}
+
+.greenIndicator {
+  background-color: #38f8ae;
+}
+
+.orangeIndicator {
+  background-color: #ed705c;
+}
+
+.yellowIndicator {
+  background-color: #f8e838;
+}
+
+.violetIndicator {
+  background-color: #e7b6e9;
+}
+
+.oliveIndicator {
+  background-color: #5ba34d;
+}
+
+.brownIndicator {
+  background-color: #b13a3a;
+}
+
+.indicatorNumber {
+  font-family: "Bebas Neue";
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 24px;
+  color: #ffffff;
+
+  text-shadow: 1px 1px 0 #000000, -1px -1px 0 #000000, 1px -1px 0 #000000,
+    -1px 1px 0 #000000;
+}
+
+.input {
+  all: unset;
+  width: 36.8rem;
+  height: 4.4rem;
+
+  padding-left: 1.4rem;
+
+  font-family: "Nunito";
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 24px;
+
+  background-color: #ffffff;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+}
+
+.input::placeholder {
+  color: #667085;
+}
+
+.greenFile,
+.orangeFile,
+.yellowFile,
+.violetFile,
+.oliveFile,
+.brownFile,
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  overflow: hidden;
+  white-space: nowrap;
+
+  color: #ffffff;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.greenFile,
+.brownFile {
+  width: 38rem;
+  height: 3.3rem;
+}
+
+.greenFile {
+  background-color: #1c815a;
+}
+
+.brownFile {
+  background-color: #ac2c2c;
+}
+
+.orangeFile,
+.yellowFile,
+.violetFile,
+.oliveFile {
+  width: 15.9rem;
+  height: 2.8rem;
+}
+
+.orangeFile {
+  background-color: #bb5646;
+}
+
+.yellowFile {
+  background-color: #c5b934;
+}
+
+.violetFile {
+  background-color: #b282b4;
+}
+
+.oliveFile {
+  background-color: #46813b;
+}
+
+.fileArea {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button {
+  width: 23.4rem;
+  height: 3.3rem;
+
+  border: none;
+  background-color: #ea6465;
+}
+
+.error {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  margin-bottom: 1rem;
+  padding: 0.5rem 1rem;
+
+  background-color: #ffffff;
+  border-radius: 8px;
+}
+
+.errorMessage {
+  font-family: "Segoe UI";
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 21px;
+
+  color: #e20b0b;
+}

@@ -6,7 +6,7 @@ import Info from "../../components/info";
 import ExampleIndicators from "../../public/assets/examples/exemplo1-indicators.png";
 import Example from "../../public/assets/examples/exemplo1.png";
 import styles from "../../styles/Making.module.css";
-import uploadFiles from "../../utils/requests";
+import { uploadFiles } from "../../utils/requests";
 
 export default function Making() {
   const [form, setForm] = useState({});

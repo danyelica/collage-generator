@@ -51,53 +51,49 @@ export default function Sample1() {
       </header>
 
       <div className='container'>
-        {done ? (
-          <main className={styles.main}>
-            <div className='mainPicture'>
-              <div className={styles.texture}>
-                <div className={styles.top}>
-                  <div className={styles.lineRight}></div>
-                  <p className={styles.topTitle}>{info.top} </p>
-                  <div className={styles.lineLeft}></div>
-                </div>
-                <h1 className={styles.mainTitle}>{info.mainText}</h1>
-                <img src={info.squarePic} className={styles.firstImage} />
-                <Image
-                  src={CloseIcon}
-                  className={styles.closeIcon}
-                  alt='Um ícone de fechar'
-                />
-                <Image
-                  src={SearchBar}
-                  className={styles.searchBar}
-                  alt='Uma barra de busca'
-                />
-                <div className={styles.rowFirst}>
-                  <img src={info.firstRecPic} className={styles.tinyImage} />
-                  <h3 className={styles.texts}>{info.words[0]}</h3>
-                </div>
-                <div className={styles.row}>
-                  <h3 className={styles.texts}>{info.words[1]}</h3>
-                  <img src={info.secondRecPic} className={styles.tinyImage} />
-                </div>
-                <div className={styles.row}>
-                  <img src={info.thirdRecPic} className={styles.tinyImage} />
-                  <h3 className={styles.texts}>{info.words[2]}</h3>
-                </div>
-                <div className={styles.row}>
-                  <h3 className={styles.texts}>{info.words[3]}</h3>
-                  <img src={info.fourthRecPic} className={styles.tinyImage} />
-                </div>
+        <main className={styles.main}>
+          <div className='mainPicture'>
+            <div className={styles.texture}>
+              <div className={styles.top}>
+                <div className={styles.lineRight}></div>
+                <p className={styles.topTitle}>{info.top} </p>
+                <div className={styles.lineLeft}></div>
+              </div>
+              <h1 className={styles.mainTitle}>{info.mainText}</h1>
+              <img src={info.squarePic} className={styles.firstImage} />
+              <Image
+                src={CloseIcon}
+                className={styles.closeIcon}
+                alt='Um ícone de fechar'
+              />
+              <Image
+                src={SearchBar}
+                className={styles.searchBar}
+                alt='Uma barra de busca'
+              />
+              <div className={styles.rowFirst}>
+                <img src={info.firstRecPic} className={styles.tinyImage} />
+                <h3 className={styles.texts}>{info.words[0]}</h3>
+              </div>
+              <div className={styles.row}>
+                <h3 className={styles.texts}>{info.words[1]}</h3>
+                <img src={info.secondRecPic} className={styles.tinyImage} />
+              </div>
+              <div className={styles.row}>
+                <img src={info.thirdRecPic} className={styles.tinyImage} />
+                <h3 className={styles.texts}>{info.words[2]}</h3>
+              </div>
+              <div className={styles.row}>
+                <h3 className={styles.texts}>{info.words[3]}</h3>
+                <img src={info.fourthRecPic} className={styles.tinyImage} />
               </div>
             </div>
-            <button
-              onClick={() => handleSavingImage()}
-              className={styles.button}
-            >
-              Salvar minha imagem
-            </button>
-          </main>
-        ) : (
+          </div>
+          <button onClick={() => handleSavingImage()} className={styles.button}>
+            Salvar minha imagem
+          </button>
+        </main>
+        {/*done ? (
           <div className={styles.center}>
             <img src='https://media.tenor.com/wHdr_idzE20AAAAi/black-cat.gif' />
             <h1 className={styles.waitingTitle}>
@@ -108,7 +104,7 @@ export default function Sample1() {
               src='https://media.tenor.com/5o2p0tH5LFQAAAAj/hug.gif'
             />
           </div>
-        )}
+          )*/}
         <style jsx>{`
           .mainPicture {
             height: 1080px;

@@ -50,23 +50,23 @@ export default function Making() {
     }
 
     if (
-      !form.squarePic.name.includes("jpg") &&
-      !form.squarePic.name.includes("jpeg") &&
-      !form.squarePic.name.includes("png") &&
-      !form.firstRecPic.name.includes("jpg") &&
-      !form.firstRecPic.name.includes("jpeg") &&
-      !form.firstRecPic.name.includes("png") &&
-      !form.secondRecPic.name.includes("jpg") &&
-      !form.secondRecPic.name.includes("jpeg") &&
-      !form.secondRecPic.name.includes("png") &&
-      !form.thirdRecPic.name.includes("jpg") &&
-      !form.thirdRecPic.name.includes("jpeg") &&
-      !form.thirdRecPic.name.includes("png") &&
-      !form.fourthRecPic.name.includes("jpg") &&
-      !form.fourthRecPic.name.includes("jpeg") &&
-      !form.fourthRecPic.name.includes("png") &&
-      !form.backgroundPic.name.includes("jpg") &&
-      !form.backgroundPic.name.includes("jpeg") &&
+      !form.squarePic.name.includes("jpg") ||
+      !form.squarePic.name.includes("jpeg") ||
+      !form.squarePic.name.includes("png") ||
+      !form.firstRecPic.name.includes("jpg") ||
+      !form.firstRecPic.name.includes("jpeg") ||
+      !form.firstRecPic.name.includes("png") ||
+      !form.secondRecPic.name.includes("jpg") ||
+      !form.secondRecPic.name.includes("jpeg") ||
+      !form.secondRecPic.name.includes("png") ||
+      !form.thirdRecPic.name.includes("jpg") ||
+      !form.thirdRecPic.name.includes("jpeg") ||
+      !form.thirdRecPic.name.includes("png") ||
+      !form.fourthRecPic.name.includes("jpg") ||
+      !form.fourthRecPic.name.includes("jpeg") ||
+      !form.fourthRecPic.name.includes("png") ||
+      !form.backgroundPic.name.includes("jpg") ||
+      !form.backgroundPic.name.includes("jpeg") ||
       !form.backgroundPic.name.includes("png")
     ) {
       return setErrorMessage(
